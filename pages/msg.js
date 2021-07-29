@@ -29,7 +29,7 @@ const Msg = () => {
         <div className='p-8 text-center text-white mx-auto max-w-md flex flex-col justify-center items-center'>
           <span className='mb-4 text-center font-bold'>Share in</span>
           <WhatsappShareButton
-            url={`https://flash-message.vercel.app/?id=${router.query.id}`}
+            url={`https://flash-message.vercel.app/msg?id=${router.query.id}`}
             title={'run to see, the message expire in 1 minute.'}
             separator=":: "
             >
